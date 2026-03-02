@@ -1,0 +1,6 @@
+insightface>=0.7.3
+numpy>=1.24.3
+pymongo>=4.6.1
+pillow>=10.1.0
+opencv-python>=4.8.1.78
+python-dotenv>=1.0.0

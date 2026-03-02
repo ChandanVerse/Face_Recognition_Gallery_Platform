@@ -1,0 +1,12 @@
+setup.py
+face_recognition_module/__init__.py
+face_recognition_module/celery_tasks.py
+face_recognition_module/config.py
+face_recognition_module/database.py
+face_recognition_module/matcher.py
+face_recognition_module/scanner.py
+face_recognition_module.egg-info/PKG-INFO
+face_recognition_module.egg-info/SOURCES.txt
+face_recognition_module.egg-info/dependency_links.txt
+face_recognition_module.egg-info/requires.txt
+face_recognition_module.egg-info/top_level.txt

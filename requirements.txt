@@ -1,0 +1,42 @@
+# FastAPI and server
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles  # For static file serving
+
+# Database - MongoDB
+pymongo
+
+# Authentication
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+
+# Celery and Redis
+celery
+redis
+gevent  # For optimized Celery workers on Windows (10x performance boost)
+greenlet  # Required by gevent
+
+# Vector Database
+pinecone  # For face embedding storage and similarity search
+
+# Face Recognition
+# Note: Install PyTorch separately first with:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+insightface
+numpy<2.0.0
+opencv-python
+onnxruntime-gpu==1.22.0
+
+# Image processing
+Pillow
+# rawpy==0.19.0  # Skip if it fails - only needed for RAW image support
+
+# Validation and serialization
+pydantic
+pydantic-settings
+
+# Utilities
+tqdm
+email-validator
